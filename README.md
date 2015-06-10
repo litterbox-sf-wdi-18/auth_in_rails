@@ -357,7 +357,7 @@ Since creating a session is essentially what we mean when want to login, and log
 
 
 
-```
+```ruby
 class SessionsController < ApplicationController
   def new
     #TODO: render a login view
@@ -420,7 +420,7 @@ The or statement, `||`, will maintain the value of `@current_user` by setting it
 If someone fails to login we want to notify them, because the situation is much different than if they tried to go to `localhost:3000/users/1` and weren't logged in. The flash storage is a type of session storage that is stored between requests and then cleared each time.
 
 
-```
+```ruby
 class SessionsController < ApplicationController
   def new
   end
@@ -445,7 +445,7 @@ end
 
 We can then render these errors in our `sessions/new.html.erb` and style them with a class that matches their name.
 
-```
+```html+erb
 <%= form_for :user, url: "/sessions", method: "post" do |f| %>
     <% flash.each do |name, msg| %>
       <%= content_tag :div, msg, class: name %>
