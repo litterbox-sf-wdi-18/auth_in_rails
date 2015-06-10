@@ -48,11 +48,8 @@ Let's uncomment the `bcrypt` at the bottom of our `Gemfile`.
 `Gemfile`
 
 ```ruby
-...
 	# Use ActiveModel has_secure_password
 	gem 'bcrypt', '~> 3.1.7'
-...
-
 ```
 
 Then run `bundle` to finish installation of `bcrypt`.
@@ -228,9 +225,7 @@ end
 
 Here is the flow we're aiming to produce...
 
-<div id="happy_path">
-<img src="http://i.imgur.com/AgQP8Py.png">
-</id>
+<img id="happy_path" src="http://i.imgur.com/AgQP8Py.png">
 
 ###Happy Path...
 
@@ -300,7 +295,6 @@ end
 See for yourself! Run `rake routes` to see all your routes.
 
 ## Controller Setup
-
 
 * Skeleton out the `UsersController` with: `rail g controller users new create show`
 
