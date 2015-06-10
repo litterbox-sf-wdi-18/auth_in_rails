@@ -229,7 +229,7 @@ end
 Here is the flow we're aiming to produce...
 
 <div id="happy_path">
-<img src="http://i.imgur.com/AgQP8Py.png"">
+<img src="http://i.imgur.com/AgQP8Py.png">
 </id>
 
 ###Happy Path...
