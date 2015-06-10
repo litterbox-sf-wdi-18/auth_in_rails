@@ -4,9 +4,9 @@
 
 By the end of this lesson...
 
-* Implement a secure authentication system in Rails using TDD
-* Build the RESTful routes necessary for authentication
-* Design views for signup & login
+* Implement an authentication system in Rails that securely stores users' passwords
+* Design the User model specs using TDD 
+* Build the routes, controllers, and views necessary for a user have the necessary interface to signup & login
 
 ##PART 1 — User Model
 
@@ -23,7 +23,6 @@ Let's start a new Rails application:
 ## Model Setup
 
 Let's leave our controllers be for the time being and setup our models.
-
 
 ```
 rails g model user email:string password_digest:string
