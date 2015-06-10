@@ -1,4 +1,4 @@
-#Auth Thursday
+#Auth in Rails
 
 ##Learning Objectives
 
