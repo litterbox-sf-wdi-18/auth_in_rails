@@ -463,14 +463,4 @@ We can then render these errors in our `sessions/new.html.erb` and style them wi
 
 ```
 
-An [example](https://gist.github.com/suryart/7418454) or how to render flash messages with the help of bootstrap's classes.
-
-##Ref
-
-[Authentication from scratch](https://github.com/sf-wdi-15/notes/tree/master/week_07_more_rails/day_1_rails_auth/dawn_auth_start)
-
-[Authentication from scratch 2](https://github.com/sf-wdi-17/notes/tree/master/lectures/week-07/_4_thursday/dusk)
-
-[Simple Auth](https://github.com/sf-wdi-14/notes/blob/master/lectures/week-7/_1_monday/dawn/auth-in-rails.md)
-
-[Authorization w/ Pundit](https://github.com/sf-wdi-17/notes/tree/master/lectures/week-07/_2_tuesday/dusk)
+An [example](https://gist.github.com/suryart/7418454) of how to render flash messages with the help of bootstrap's classes.
